@@ -1,0 +1,262 @@
+<%-- Document : profile Created on : Dec 10, 2022, 5:33:32 PM Author : Kaizen
+--%> <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!--Header-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav_logo">Amir Asyraaf Aiman</a>
+        </div>
+
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="#home" class="nav_link active">Home</a>
+            </li>
+            <li class="nav_item">
+              <a href="#about" class="nav_link">About</a>
+            </li>
+            <li class="nav_item">
+              <a href="#skill" class="nav_link">Skills</a>
+            </li>
+            <li class="nav_item">
+              <a href="#interest" class="nav_link">Interest</a>
+            </li>
+            <li class="nav_item">
+              <a href="#contact" class="nav_link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav_toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="1-main">
+      <!--Home-->
+      <section class="home" id="home">
+        <div class="home_container bd-grid">
+          <h1 class="home_title"><span>HE</span><br />LLO.</h1>
+
+          <div class="home_scroll">
+            <a href="#about" class="home_scroll-link"
+              ><i class="bx bxs-up-arrow-alt"></i>Scroll down</a
+            >
+          </div>
+          <div class="image">
+            <img src="assets/img/Profile3.png" alt="" class="home_img" />
+          </div>
+        </div>
+      </section>
+
+      <!--About-->
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about_container bd-grid">
+          <div class="about_img">
+            <img src="assets/img/Profile.png" alt="" />
+          </div>
+
+          <div>
+            <h2 class="about_subtitle">I'm Amir Asyraaf Aiman</h2>
+            <span class="about_profession">Web designer</span>
+            <p class="about_text">
+              I'm 21 years old currently studying at UiTM Shah Alam.I'm from
+              Terengganu but right now im staying at Seksyen 7.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--Skills-->
+
+      <section class="skills section" id="skill">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skill_container bd-grid">
+          <div class="skill_box">
+            <h3 class="skill_subtitle">Development</h3>
+            <span class="skill_name">Html</span>
+            <span class="skill_name">Css</span>
+            <span class="skill_name">Java</span>
+            <span class="skill_name">Javascript</span>
+            <span class="skill_name">Phython</span>
+
+            <h3 class="skill_subtitle">Design</h3>
+            <span class="skill_name">Photoshop</span>
+          </div>
+        </div>
+      </section>
+      <!--Interest-->
+      <section class="interest section" id="interest">
+        <h2 class="section-title">Interest</h2>
+        <h3 style="text-align: center" n->
+          This is my top 3 Playlist and My Favorite Game
+        </h3>
+        <div class="interest_container">
+          <iframe
+            style="border-radius: 24px; padding: 10px"
+            src="https://open.spotify.com/embed/playlist/2BdfL0I0Yg5lGQvHc6lZ6L?utm_source=generator"
+            width="100%"
+            height="350"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+            class="music_interest"
+          ></iframe>
+
+          <iframe
+            style="border-radius: 24px; padding: 10px"
+            src="https://open.spotify.com/embed/playlist/7g8jkdaBD2tobfZr9K4AxJ?utm_source=generator"
+            width="100%"
+            height="350"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+            class="music_interest"
+          ></iframe>
+
+          <iframe
+            style="border-radius: 24px; padding: 10px"
+            src="https://open.spotify.com/embed/playlist/6dhgJvoTMconAPJzzz7Gpf?utm_source=generator"
+            width="100%"
+            height="350"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+            class="music_interest"
+          ></iframe>
+        </div>
+
+        <div class="interest_container">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/e_E9W2vsRbQ"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            class="video_interest"
+          ></iframe>
+
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/HLUY1nICQRY"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            class="video_interest"
+          ></iframe>
+        </div>
+      </section>
+      <!--Contact-->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contact Me</h2>
+
+        <div class="contact_container bd-grid">
+          <div class="contact_info">
+            <h3 class="contact_subtitle">EMAIL</h3>
+            <span class="contact_text">2022765207@student.uitm.edu.my</span>
+
+            <h3 class="contact_subtitle">PHONE</h3>
+            <span class="contact_text">+60199126207</span>
+          </div>
+
+          <form action="" class="contact_form">
+            <div class="contact_inputs">
+              <input type="text" placeholder="Name" class="contact_input" />
+              <input type="email" placeholder="Email" class="contact_input" />
+            </div>
+
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="10"
+              class="contact_input"
+            ></textarea>
+
+            <input type="submit" value="Submit" class="contact_button" />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--Footer-->
+
+    <footer class="footer section">
+      <div class="footer_container bd-grid">
+        <div class="footer_data">
+          <h2 class="footer_title">AMIR ASYRAAF AIMAN</h2>
+          <p class="footer_text">
+            I'm Amir Asyraaf Aiman and this is my personal website
+          </p>
+        </div>
+
+        <div class="footer_data">
+          <h2 class="footer_title">EXPLORE</h2>
+          <ul>
+            <li><a href="#home" class="footer_link">Home</a></li>
+            <li><a href="#about" class="footer_link">About</a></li>
+            <li><a href="#skill" class="footer_link">Skills</a></li>
+            <li><a href="#portfolio" class="footer_link">Portfolio</a></li>
+            <li><a href="#contact" class="footer_link">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer_data">
+          <h2 class="footer_title">SOCIALS</h2>
+          <ul>
+            <li>
+              <a href="" class="footer_link"
+                ><i class="bx bxl-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="" class="footer_link"><i class="bx bxl-twitter"></i></a>
+            </li>
+            <li>
+              <a href="" class="footer_link"><i class="bx bxl-whatsapp"></i></a>
+            </li>
+            <li>
+              <a href="" class="footer_link"><i class="bx bxl-gmail"></i></a>
+            </li>
+            <li>
+              <a href="" class="footer_link"><i class="bx bxl-snapchat"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll Reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Main JS-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
